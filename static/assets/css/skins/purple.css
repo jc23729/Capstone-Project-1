@@ -1,0 +1,59 @@
+p a {
+    color: #6356fd;
+}
+.theme-cl {
+    color:#6356fd !important;
+}
+.theme-bg {
+    background:#6356fd;
+}
+.theme-btn {
+    background:#6356fd;
+    border: 1px solid #6356fd;
+}
+nav.navbar.bootsnav ul.nav > li >a.btn-signup.red-btn {
+    background: #6356fd !important;
+}
+.half-bg:before {
+    background: #6356fd;
+}
+.footer .f-social-box ul li a i:hover, .footer .f-social-box ul li a i:focus {
+    background: #6356fd;
+    border-color: #6356fd;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #6356fd;
+}
+.custom-checkbox input[type="checkbox"]:checked + label:before {
+    border-color: #6356fd;
+    background: #6356fd;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus, .pagination>li>a:hover, .pagination>li>a:focus {
+    background-color: #6356fd;
+    border-color: #6356fd;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus, .pagination>li>a:hover, .pagination>li>a:focus {
+    background-color: #6356fd;
+    border-color: #6356fd;
+}
+.profile-header-nav .nav-tabs li.active a, .profile-header-nav .nav-tabs li.active a:focus, .profile-header-nav .nav-tabs li.active a:hover {
+    color: #6356fd;
+}
+.profile-header-nav .nav-tabs li a:hover {
+    color: #6356fd;
+}
+.active a.btn.btn-pricing {
+    background: #6356fd;
+    border-color:#6356fd;
+}
+.simple-tab-style .nav-tabs > li.active > a, .simple-tab-style .nav-tabs > li.active > a:hover, .simple-tab-style .nav-tabs > li.active > a:focus {
+    background:#6356fd;
+    border: 1px solid #6356fd;
+}
+#dashboard-menu li.active>a {
+    color: #6356fd;
+}
+#dashboard-menu li>a:hover, #dashboard-menu li>a:focus {
+    background: #ffffff;
+    color: #6356fd;
+}

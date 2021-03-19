@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/mac/Dropbox/My Mac (Macs-MBP.attlocal.net)/Desktop/Github uploads/Capstone-Project-1/venv/bin/python3" "$0" "$@"
+'''exec' "/Users/mac/Dropbox/My Mac (Macs-MBP.attlocal.net)/Desktop/finalize/venv/bin/python3" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re

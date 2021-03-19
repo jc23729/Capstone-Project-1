@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flight club</title>
+
+    <!-- Plugins CSS -->
+	<link rel="stylesheet" href="static/assets/plugins/css/plugins.css">	
+    
+    <!-- Custom style -->
+    <link href="static/assets/css/style.css" rel="stylesheet">
+	<link href="static/assets/css/responsiveness.css" rel="stylesheet">
+    
+	</head>
+	
+	<body>
+		<!-- ======================= Start Navigation ===================== -->
+		<nav class="navbar navbar-default navbar-mobile navbar-fixed light bootsnav">
+			<div class="container">
+			
+				<!-- Start Logo Header Navigation -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+						<i class="fa fa-bars"></i>
+					</button>
+					<a class="navbar-brand" href="/">
+						<h4>Flight Club</h4	>
+						<!-- <img src="static/assets/img/logo.png" class="logo logo-display" alt=""> -->
+						<!-- <img src="static/assets/img/logo.png" class="logo logo-scrolled" alt=""> -->
+					</a>
+
+				</div>
+				<!-- End Logo Header Navigation -->
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navbar-menu">
+				
+					<ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
+					
+						<li class="dropdown">
+							<a href="#"  data-toggle="dropdown">Home</a>
+						</li>
+						
+					</ul>
+					
+					<ul class="nav navbar-nav navbar-right">
+						<li class="br-right"><a href="javascript:void(0)"  data-toggle="modal" data-target="#signin"><i class="login-icon ti-user"></i>Login</a></li>
+					</ul>
+						
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>  
+		</nav>
+		<!-- ======================= End Navigation ===================== -->
+		
+		<!-- ======================= Start Banner ===================== -->
+		<div class="main-banner" style="background-image:url(static/assets/img/bk3.jpg);">
+
+		<!-- <div class="main-banner" style="background-image:url(http://via.placeholder.com/1920x980);"> -->
+			<div class="container">
+				<div class="col-md-12">
+				
+					<div class="caption text-center cl-white">
+						<h2>Discover Your Next Adventure</h2>
+						<p>Expolore top rated tours around the world</p>
+					</div>
+					
+					<form>
+						<fieldset class="home-form-1">
+							<!-- <div class="col-md-5 col-sm-5 padd-0">
+								<input type="text" class="form-control br-1" id="from" placeholder="From: Departure">
+							</div> -->
+							<div class="col-md-5 col-sm-5 padd-0">
+								<div class="sl-box">
+								<select class="wide form-control br-1" id="from">
+									<option data-display="From:">From: Departure</option>
+									<option value=" Phoenix "> Phoenix </option>
+									<option value="Portland">  Portland  </option>
+									<option value="San Diego">  San Diego  </option>
+									<option value="San Francisco">  San Francisco  </option>
+									<option value="Seattle"> Seattle </option>
+									<option value="New York"> New York </option>
+									<option value=" Orlando "> Orlando </option>
+									<option value=" Philadelphia "> Philadelphia </option>
+									
+
+								</select>
+							</div>
+						</div>
+							
+							<div class="col-md-5 col-sm-5 padd-0">
+								<div class="sl-box">
+									<select class="wide form-control br-1" id="to">
+										<option data-display="To:">To: Destination</option>
+										<option value="New York"> New York </option>
+										<option value=" Orlando "> Orlando </option>
+										<option value=" Philadelphia "> Philadelphia </option>
+										<option value=" Phoenix "> Phoenix </option>
+										<option value="Portland">  Portland  </option>
+										<option value="San Diego">  San Diego  </option>
+										<option value="San Francisco">  San Francisco  </option>
+										<option value="Seattle"> Seattle </option>
+	
+									</select>
+
+								<!-- <input type="text" class="form-control br-1" id="to" placeholder="To: Destination"> -->
+							</div>
+						</div>
+
+							<!-- 
+							<div class="col-md-2 col-sm-2 padd-0" >
+								<input type="text" name="book-date" class="form-control br-1" id="date">
+							</div>
+								
+							<div class="col-md-2 col-sm-2 padd-0">
+								<div class="sl-box">
+									<select class="wide form-control br-1" id="adults">
+										<option data-display="Adults">Adults</option>
+										<option value="1">01</option>
+										<option value="2">02</option>
+										<option value="3">03</option>
+										<option value="4">04</option>
+									</select>
+								</div>
+							</div> -->
+								
+							<!-- <div class="col-md-2 col-sm-2 padd-0">
+								<div class="sl-box">
+									<select class="wide form-control br-1" id="children">
+										<option data-display="Children">Children</option>
+										<option value="1">01</option>
+										<option value="2">02</option>
+										<option value="3">03</option>
+										<option value="4">04</option>
+									</select>
+								</div>
+							</div> -->
+															
+							<div class="col-md-2 col-sm-2 padd-0">
+								<button type="button" class="btn theme-btn cl-white seub-btn" data-toggle="modal" data-target="#signin">Search</button>
+							</div>
+  
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- ======================= End Banner ===================== -->
+		<div class="clearfix"></div>
+		
+		<!-- ====================== How It Work ================= -->
+		<section class="how-it-works">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="heading">
+							<span class="theme-cl">Working Process</span>
+							<h1>How It Works?</h1>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+				
+					<div class="col-md-4 col-sm-4">
+						<div class="work-process">
+							<div class="process-img">
+								<img src="static/assets/img/tour-1.png" class="img-responsive" alt="" />
+								<span class="process-num">01</span>
+							</div>
+							<h4>Choose a Destination & Guide</h4>
+							<p>Post a job to tell us about your project. We'll quickly match you with the right freelancers.</p>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-4">
+						<div class="work-process">
+							<div class="process-img">
+								<img src="static/assets/img/tour-2.png" class="img-responsive" alt="" />
+								<span class="process-num">02</span>
+							</div>
+							<h4>Choose your guide & Customize</h4>
+							<p>Post a job to tell us about your project. We'll quickly match you with the right freelancers.</p>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-4">
+						<div class="work-process">
+							<div class="process-img">
+								<img src="static/assets/img/tour-3.png" class="img-responsive" alt="" />
+								<span class="process-num">03</span>
+							</div>
+							<h4>Book Your Guide Online</h4>
+							<p>Post a job to tell us about your project. We'll quickly match you with the right freelancers.</p>
+						</div>
+					</div>
+					
+				</div>
+		
+			</div>
+		</section>
+		<!-- ====================== How It Work ================= -->
+		<div class="clearfix"></div>
+		
+		
+		<!-- ====================== Popular Tour ================= -->
+		<section class="gray-dot gray-bg">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="heading">
+							<span class="theme-cl">Select Tour</span>
+							<h1>Popular Tour</h1>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					
+					<div class="list-slider">
+					
+						<!-- Single Tour -->
+						<div class="list-slide-box">
+							<article class="tour-box style-1">
+							
+								<!-- Single Tour -->
+								<div class="tour-box-image">
+									<figure>
+										<a href="tour-detail.html">
+											<img src="http://via.placeholder.com/1280x900" class="img-responsive listing-box-img" alt="" />
+											<div class="list-overlay"></div>
+										</a>
+										<div class="entry-bookmark">                                   
+											<a href="#"><i class="ti-bookmark"></i></a>
+										</div>
+										<div class="tour-time">
+											<i class="ti ti-car"></i><span>25h</span>
+										</div>
+										<h4 class="tour-place">
+											<a href="tour-detail.html">Istanbul, Turkey</a>
+										</h4>
+										<span class="featured-tour"><i class="fa fa-star"></i></span>
+										<a href="#" class="list-like left"><i class="ti-heart"></i></a>
+									</figure>
+								</div>
+								
+								<div class="entry-meta">
+									<div class="meta-item meta-author">
+										<div class="coauthors">
+											<span class="vcard author">
+												<span class="fn">
+													<a href="#"><img alt="" src="http://via.placeholder.com/420x420" class="avatar avatar-24" height="24" width="24">Lisa Scholfield</a>
+												</span>
+											</span>
+										</div>
+									</div>
+									<div class="meta-item meta-comment fl-right">
+										<i class="ti-comment-alt"></i><span>25</span>
+									</div>
+									<div class="meta-item meta-rating fl-right">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half"></i>
+									</div>
+								</div>
+
+								<div class="inner-box">
+									<div class="box-inner-ellipsis">
+										<h4 class="entry-title">
+											<a href="tour-detail.html">Netherlands</a>
+										</h4>
+										<div class="price-box">
+											<div class="tour-price fl-right">
+												<i class="ti ti-user"></i><span class="theme-cl f-bold">$187</span>
+											</div>
+										</div>
+									</div>
+								</div>
+			
+							</article>
+						</div>
+						
+						<!-- Single Tour -->
+						<div class="list-slide-box">
+							<article class="tour-box style-1">
+							
+								<div class="tour-box-image">
+									<figure>
+										<a href="tour-detail.html">
+											<img src="http://via.placeholder.com/1280x900" class="img-responsive listing-box-img" alt="" />
+											<div class="list-overlay"></div>
+										</a>
+										<div class="entry-bookmark">                                   
+											<a href="#"><i class="ti-bookmark"></i></a>
+										</div>
+										<div class="tour-time">
+											<i class="ti ti-car"></i><span>2 days</span>
+										</div>
+										<h4 class="tour-place">
+											<a href="tour-detail.html">Kuala Lumpur, Malaysia</a>
+										</h4>
+										<span class="featured-tour"><i class="fa fa-star"></i></span>
+										<a href="#" class="list-like left"><i class="ti-heart"></i></a>
+									</figure>
+								</div>
+								
+								<div class="entry-meta">
+									<div class="meta-item meta-author">
+										<div class="coauthors">
+											<span class="vcard author">
+												<span class="fn">
+													<a href="#"><img alt="" src="http://via.placeholder.com/420x420" class="avatar avatar-24" height="24" width="24">Lisa Scholfield</a>
+												</span>
+											</span>
+										</div>
+									</div>
+									<div class="meta-item meta-comment fl-right">
+										<i class="ti-comment-alt"></i><span>26</span>
+									</div>
+									<div class="meta-item meta-rating fl-right">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half"></i>
+									</div>
+								</div>
+
+								<div class="inner-box">
+									<div class="box-inner-ellipsis">
+										<h4 class="entry-title">
+											<a href="tour-detail.html">Austrailia</a>
+										</h4>
+										<div class="price-box">
+											<div class="tour-price fl-right">
+												<i class="ti ti-user"></i><span class="theme-cl f-bold">$130</span>
+											</div>
+										</div>
+									</div>
+								</div>
+			
+							</article>
+						</div>
+						
+						<!-- Single Tour -->
+						<div class="list-slide-box">
+							<article class="tour-box style-1">
+							
+								<div class="tour-box-image">
+									<figure>
+										<a href="tour-detail.html">
+											<img src="http://via.placeholder.com/1280x900" class="img-responsive listing-box-img" alt="" />
+											<div class="list-overlay"></div>
+										</a>
+										<div class="entry-bookmark">                                   
+											<a href="#"><i class="ti-bookmark"></i></a>
+										</div>
+										<div class="tour-time">
+											<i class="ti ti-car"></i><span>21h</span>
+										</div>
+										<h4 class="tour-place">
+											<a href="tour-detail.html">Singapore. platongkoh</a>
+										</h4>
+										<span class="featured-tour"><i class="fa fa-star"></i></span>
+										<a href="#" class="list-like left"><i class="ti-heart"></i></a>
+									</figure>
+								</div>
+								
+								<div class="entry-meta">
+									<div class="meta-item meta-author">
+										<div class="coauthors">
+											<span class="vcard author">
+												<span class="fn">
+													<a href="#"><img alt="" src="http://via.placeholder.com/420x420" class="avatar avatar-24" height="24" width="24">Lisa Scholfield</a>
+												</span>
+											</span>
+										</div>
+									</div>
+									<div class="meta-item meta-comment fl-right">
+										<i class="ti-comment-alt"></i><span>17</span>
+									</div>
+									<div class="meta-item meta-rating fl-right">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half"></i>
+									</div>
+								</div>
+
+								<div class="inner-box">
+									<div class="box-inner-ellipsis">
+										<h4 class="entry-title">
+											<a href="tour-detail.html">United States</a>
+										</h4>
+										<div class="price-box">
+											<div class="tour-price fl-right">
+												<i class="ti ti-user"></i><span class="theme-cl f-bold">$215</span>
+											</div>
+										</div>
+									</div>
+								</div>
+			
+							</article>
+						</div>
+						
+						<!-- Single Tour -->
+						<div class="list-slide-box">
+							<article class="tour-box style-1">
+							
+								<div class="tour-box-image">
+									<figure>
+										<a href="tour-detail.html">
+											<img src="http://via.placeholder.com/1280x900" class="img-responsive listing-box-img" alt="" />
+											<div class="list-overlay"></div>
+										</a>
+										<div class="entry-bookmark">                                   
+											<a href="#"><i class="ti-bookmark"></i></a>
+										</div>
+										<div class="tour-time">
+											<i class="ti ti-car"></i><span>22h</span>
+										</div>
+										<h4 class="tour-place">
+											<a href="tour-detail.html">New York, Sean Pavone</a>
+										</h4>
+										<span class="featured-tour"><i class="fa fa-star"></i></span>
+										<a href="#" class="list-like left"><i class="ti-heart"></i></a>
+									</figure>
+								</div>
+								
+								<div class="entry-meta">
+									<div class="meta-item meta-author">
+										<div class="coauthors">
+											<span class="vcard author">
+												<span class="fn">
+													<a href="#"><img alt="" src="http://via.placeholder.com/420x420" class="avatar avatar-24" height="24" width="24">Lisa Scholfield</a>
+												</span>
+											</span>
+										</div>
+									</div>
+									<div class="meta-item meta-comment fl-right">
+										<i class="ti-comment-alt"></i><span>18</span>
+									</div>
+									<div class="meta-item meta-rating fl-right">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half"></i>
+									</div>
+								</div>
+
+								<div class="inner-box">
+									<div class="box-inner-ellipsis">
+										<h4 class="entry-title">
+											<a href="tour-detail.html">New York</a>
+										</h4>
+										<div class="price-box">
+											<div class="tour-price fl-right">
+												<i class="ti ti-user"></i><span class="theme-cl f-bold">$240</span>
+											</div>
+										</div>
+									</div>
+								</div>
+			
+							</article>
+						</div>
+						
+						<!-- Single Tour -->
+						<div class="list-slide-box">
+							<article class="tour-box style-1">
+							
+								<div class="tour-box-image">
+									<figure>
+										<a href="tour-detail.html">
+											<img src="http://via.placeholder.com/1280x900" class="img-responsive listing-box-img" alt="" />
+											<div class="list-overlay"></div>
+										</a>
+										<div class="entry-bookmark">                                   
+											<a href="#"><i class="ti-bookmark"></i></a>
+										</div>
+										<div class="tour-time">
+											<i class="ti ti-car"></i><span>17h</span>
+										</div>
+										<h4 class="tour-place">
+											<a href="tour-detail.html">Dubai, United Arab Emirates</a>
+										</h4>
+										<span class="featured-tour"><i class="fa fa-star"></i></span>
+										<a href="#" class="list-like left"><i class="ti-heart"></i></a>
+									</figure>
+								</div>
+								
+								<div class="entry-meta">
+									<div class="meta-item meta-author">
+										<div class="coauthors">
+											<span class="vcard author">
+												<span class="fn">
+													<a href="#"><img alt="" src="http://via.placeholder.com/420x420" class="avatar avatar-24" height="24" width="24">Lisa Scholfield</a>
+												</span>
+											</span>
+										</div>
+									</div>
+									<div class="meta-item meta-comment fl-right">
+										<i class="ti-comment-alt"></i><span>15</span>
+									</div>
+									<div class="meta-item meta-rating fl-right">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half"></i>
+									</div>
+								</div>
+
+								<div class="inner-box">
+									<div class="box-inner-ellipsis">
+										<h4 class="entry-title">
+											<a href="tour-detail.html">Saudi Arabia</a>
+										</h4>
+										<div class="price-box">
+											<div class="tour-price fl-right">
+												<i class="ti ti-user"></i><span class="theme-cl f-bold">$117</span>
+											</div>
+										</div>
+									</div>
+								</div>
+			
+							</article>
+						</div>
+						
+					</div>
+				</div>
+		
+			</div>
+		</section>
+		<!-- ====================== Popular Tour ================= -->
+		<div class="clearfix"></div>
+		
+		
+		
+		
+		<!-- ============== Before Footer ====================== -->
+				
+				<!-- Row Start -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright text-center">
+							<p>&copy; Copyright 2021 Flight Club | Powerd By Flight Club</a></p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</footer>
+		
+		<!-- Sign Up Window Code -->
+		<div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content" id="myModalLabel1">
+					<div class="modal-body">
+						<div class="text-center"><h2>Flight Club</h2></div>
+						
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs nav-advance theme-bg" role="tablist">
+							<li class="nav-item active">
+								<a class="nav-link" data-toggle="tab" href="#employer" role="tab">
+								<i class="ti-user"></i> SignUp</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#candidate" role="tab">
+								<i class="ti-user"></i> Signin</a>
+							</li>
+						</ul>
+						<!-- Nav tabs -->
+							
+						<!-- Tab panels -->
+						<div class="tab-content">
+						
+							<!-- Employer Panel 1-->
+							<div class="tab-pane fade in show active" id="employer" role="tabpanel">
+								<form>
+								<!-- <form method="POST" action="/signup"> -->
+								
+									<div class="form-group">
+										<label>User Name</label>
+										<input type="text" class="form-control" id="u-user" placeholder="User Name">
+									</div>
+									
+									<div class="form-group">
+										<label>Email</label>
+										<input type="email" class="form-control" id="u-email" placeholder="name@email.com">
+									</div>
+
+									<div class="form-group">
+										<label>Password</label>
+										<input type="password" class="form-control" id="u-password" placeholder="*********">
+									</div>
+									
+									<div class="form-group text-center">
+										<button type="button" class="btn theme-btn full-width btn-m" id="signsup">Singup </button>
+									</div>
+									
+								</form>
+					
+							</div>
+							<!--/.Panel 1-->
+							
+							<!-- Candidate Panel 2-->
+							<div class="tab-pane fade" id="candidate" role="tabpanel">
+								<!-- <form method="POST" action="/signin"> -->
+								<form>
+									
+									<div class="form-group">
+										<label>Email</label>
+										<input type="text" class="form-control" id="s-email" placeholder="User Name">
+									</div>
+									
+									<div class="form-group">
+										<label>Password</label>
+										<input type="password" class="form-control" id="s-password" placeholder="*********">
+									</div>
+									
+
+									<div class="form-group text-center">
+										<button type="button" class="btn theme-btn full-width btn-m" id="signsin">LogIn </button>
+									</div>
+									
+								</form>
+																
+							</div>
+							<!--/.Panel 2-->
+							
+						</div>
+						<!-- Tab panels -->
+					</div>
+				</div>
+			</div>
+		</div>   
+		<!-- End Sign Up Window -->
+		 
+		<!-- =================== START JAVASCRIPT ================== -->
+		<script src="static/assets/plugins/js/jquery.min.js"></script>
+		<script src="static/assets/plugins/js/bootstrap.min.js"></script>
+		<script src="static/assets/plugins/js/viewportchecker.js"></script>
+		<script src="static/assets/plugins/js/bootsnav.js"></script>
+		<script src="static/assets/plugins/js/slick.min.js"></script>
+		<script src="static/assets/plugins/js/jquery.nice-select.min.js"></script>
+		<script src="static/assets/plugins/js/jquery.fancybox.min.js"></script>
+		<script src="static/assets/plugins/js/jquery.downCount.js"></script>
+		<script src="static/assets/plugins/js/freshslider.1.0.0.js"></script>
+		<script src="static/assets/plugins/js/moment.min.js"></script>
+		<script src="static/assets/plugins/js/daterangepicker.js"></script>
+		<script src="static/assets/plugins/js/wysihtml5-0.3.0.js"></script>
+		<script src="static/assets/plugins/js/bootstrap-wysihtml5.js"></script>
+		
+		<!-- Dashboard Js -->
+		<script src="static/assets/plugins/js/jquery.slimscroll.min.js"></script>
+		<script src="static/assets/plugins/js/jquery.metisMenu.js"></script>
+		<script src="static/assets/plugins/js/jquery.easing.min.js"></script>
+ 
+		<!-- Custom Js -->
+		<script src="static/assets/js/custom.js"></script>
+		
+		<script>
+			$(function() {
+
+			  $('input[name="book-date"]').daterangepicker({
+				  autoUpdateInput: false,
+				  locale: {
+					  cancelLabel: 'Clear'
+				  }
+			  });
+
+			  $('input[name="book-date"]').on('apply.daterangepicker', function(ev, picker) {
+				  $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+			  });
+
+			  $('input[name="book-date"]').on('cancel.daterangepicker', function(ev, picker) {
+				  $(this).val('');
+			  });
+
+			});
+
+			$("#signsup").click(function(){
+				
+				var to = $('#to').val();
+				var from = $('#from').val();
+				var user = $('#u-user').val();
+				var email = $('#u-email').val();
+				var pass = $('#u-password').val();
+
+				$.ajax({
+				url: "http://127.0.0.1:5000/signup",
+				cache: false,
+				type: "post",
+				dataType: 'json',
+				contentType: 'application/json',
+				data: JSON.stringify({
+					"to" : to,
+					"from":from,
+					"user":user,
+					"email":email,
+					"password":pass
+				}),
+				success: function(result){
+					location.reload();
+					console.log("Results");
+					
+				}
+				});
+				});
+
+		</script>
+	
+    </body>
+</html>

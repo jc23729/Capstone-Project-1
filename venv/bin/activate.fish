@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/mac/Dropbox/My Mac (Macs-MBP.attlocal.net)/Desktop/Github uploads/Capstone-Project-1/venv"
+set -gx VIRTUAL_ENV "/Users/mac/Dropbox/My Mac (Macs-MBP.attlocal.net)/Desktop/finalize/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

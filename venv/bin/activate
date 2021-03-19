@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/mac/Dropbox/My Mac (Macs-MBP.attlocal.net)/Desktop/Github uploads/Capstone-Project-1/venv"
+VIRTUAL_ENV="/Users/mac/Dropbox/My Mac (Macs-MBP.attlocal.net)/Desktop/finalize/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
